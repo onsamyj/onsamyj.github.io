@@ -1,0 +1,124 @@
+* {
+    position:               relative;
+    padding:                0;
+    margin:                 0;
+    box-sizing:             border-box;
+}
+html {
+    -webkit-text-size-adjust:
+                            100%;
+    height:                 100%;
+}
+body {
+    font-family:            "Century Gothic",
+                            CenturyGothic,
+                            AppleGothic,
+                            sans-serif;
+    line-height:            2rem;
+    font-size:              1rem;
+    min-height:             100%;
+    display:                flex;
+    flex-flow:              column nowrap;
+    justify-content:        center;
+    align-items:            center;
+}
+svg,
+img {
+    vertical-align:         bottom;
+    width:                  auto;
+}
+
+header,
+main,
+article {
+    margin:                 1rem;
+    display:                flex;
+}
+main {
+
+    flex-flow:              row wrap;
+    justify-content:        center;
+}
+article {
+    padding:                0 1rem;
+    display:                flex;
+    flex-flow:              row wrap;
+    align-items:            center;
+    border-radius:          .5rem;
+}
+article section,
+article aside {
+    margin:                 2rem;
+    max-width:              30rem;
+}
+h1,
+h2 {
+    font-size: 1.4rem;
+}
+header aside svg {
+    height:                 12rem;
+}
+main aside svg,
+main aside img {
+    height:                 8rem;
+}
+a svg {
+    position:               absolute;
+    height:                 1rem;
+    left:                   -1.125rem;
+    top:                    0;
+}
+
+body {
+    color:                  #CCCCCC;
+    background-color:       #1E1E1E;
+    background-image:       linear-gradient(
+                                rgba(255,255,255,.01) 0 50%,
+                                transparent 50% 100%
+                            ),
+                            linear-gradient(
+                                rgba(255,255,255,.01) 0 50%,
+                                transparent 50% 100%
+                            ),
+                            linear-gradient(
+                                rgba(255,255,255,.01) 0 50%,
+                                transparent 50% 100%
+                            );
+    background-size:        3.625rem 3.625rem,
+                            4.625rem 4.625rem,
+                            6.625rem 6.625rem;
+}
+article {
+    background-color:      rgba(0,0,0,.1);
+    backdrop-filter:        blur(.5rem);
+    box-shadow:             0 0 .25rem rgba(0,0,0,.5),
+                            0 .25rem .25rem rgba(0,0,0,.5);
+}
+h1,
+h2 {
+    color:                  #FFFFFF;
+}
+dt a,
+dt a svg {
+    color:                  #3674B3;
+    fill:                   #3674B3;
+    stroke:                 #3674B3;
+}
+dt a span,
+dt a span svg {
+    color:                  #0080FF;
+    fill:                   #0080FF;
+    stroke:                 #0080FF;
+}
+dd a {
+    color:                  #CCCCCC;
+    text-decoration-color:  #3674B3;
+}
+a:hover,
+a:hover span,
+a:hover svg {
+    color:                  #FF1000;
+    fill:                   #FF1000;
+    stroke:                 #FF1000;
+    text-decoration-color:  #FF1000;
+}
