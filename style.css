@@ -31,16 +31,15 @@ img {
 header,
 main,
 article {
-    margin:                 1rem;
+    margin:                 1rem 0;
+    width:                  100%;
     display:                flex;
 }
 main {
-
     flex-flow:              row wrap;
     justify-content:        center;
 }
 article {
-    padding:                0 1rem;
     display:                flex;
     flex-flow:              row wrap;
     align-items:            center;
@@ -48,7 +47,7 @@ article {
 }
 article section,
 article aside {
-    margin:                 2rem;
+    margin:                 1rem;
     max-width:              30rem;
 }
 h1,
@@ -62,11 +61,34 @@ main aside svg,
 main aside img {
     height:                 8rem;
 }
+dt a {
+    display:                flex;
+    flex-flow:              row wrap;
+}
+dt a strong {
+    font-weight:            normal;
+}
 a svg {
     position:               absolute;
     height:                 1rem;
     left:                   -1.125rem;
     top:                    0;
+}
+
+@media screen and (min-width:32rem) {
+    header,
+    main,
+    article {
+        margin:                 1rem;
+        width:                  auto;
+    }
+    article {
+        padding:                0 1rem;
+    }
+    article section,
+    article aside {
+        margin:                 2rem;
+    }
 }
 
 body {
@@ -104,8 +126,8 @@ dt a svg {
     fill:                   #3674B3;
     stroke:                 #3674B3;
 }
-dt a span,
-dt a span svg {
+dt a strong,
+dt a strong svg {
     color:                  #0080FF;
     fill:                   #0080FF;
     stroke:                 #0080FF;
@@ -115,7 +137,7 @@ dd a {
     text-decoration-color:  #3674B3;
 }
 a:hover,
-a:hover span,
+a:hover strong,
 a:hover svg {
     color:                  #FF1000;
     fill:                   #FF1000;
