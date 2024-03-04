@@ -4,8 +4,6 @@
 
 Bilingual disabled socialist who can easily imagine the end of the world or the end of capitalism. Feminism is for everyone. He/him.
 
-[![CC0](https://img.shields.io/badge/CC0-Public_Domain-informational?logo=unlicense)](https://creativecommons.org/publicdomain/zero/1.0/)
-
 ## Mastodon
 
 [@**alsorew**@mastodon.online](https://mastodon.online/@alsorew)
@@ -40,6 +38,14 @@ My [rubber duck](https://en.wikipedia.org/wiki/Rubber_duck_debugging) for bits o
 ### Reach out
 
 - [@**alsorew**:matrix.org](https://matrix.to/#/@alsorew:matrix.org)
+
+---
+
+[![CC0](https://img.shields.io/badge/CC0-Public_Domain-informational?logo=unlicense)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+Best viewed in:  
+[![Firefox](https://img.shields.io/badge/Firefox-informational?logo=firefoxbrowser&logoColor=white)](https://www.mozilla.org/firefox/) 
+[![Links](https://img.shields.io/badge/Links-informational?logo=links&logoColor=white)](http://links.twibright.com/)
 
 <!--
 
