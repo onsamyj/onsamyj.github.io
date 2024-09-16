@@ -12,8 +12,6 @@ MARK: Variables
     --txd:                  #333; /* dark text */
     --txa:                  #11d; /* link */
     --txh:                  #811; /* link hover */
-    --txu:                  #440; /* Linux */
-    --txw:                  #345; /* Windows blue */
 
     /* userpic */
     --upw:                  #e8e8e8; /* userpic white */
@@ -21,8 +19,9 @@ MARK: Variables
     --upr:                  #cf7280; /* userpic red */
 
     /* icons */
-    --icu:                  #070; /* Linux green */
-    --icw:                  #07c; /* Windows blue */
+    --icu:                  #970; /* Linux */
+    --icw:                  #357EC7; /* Windows blue */
+    --ica:                  #1A8E4E; /* Android green, adjusted #3DDC84 */
 }
 
 
@@ -263,12 +262,6 @@ a:hover,
 a:focus {
     color:                  var(--txh);
     text-decoration-color:  var(--txh);
-}
-span[title="Linux"] {
-    color:                  var(--txu);
-}
-span[title="Windows"] {
-    color:                  var(--txw);
 }
 
 body {
