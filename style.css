@@ -4,24 +4,19 @@ MARK: Variables
 
 :root {
     /* background */
-    --bgd:                  #222; /* dark background */
-    --bgl:                  #ddd; /* light background */
+    --bgd:                  #222;       /* dark background */
+    --bgl:                  #ddd;       /* light background */
 
     /* text */
-    --txl:                  #ccc; /* light text */
-    --txd:                  #333; /* dark text */
-    --txa:                  #11d; /* link */
-    --txh:                  #811; /* link hover */
+    --txl:                  #ccc;       /* light text */
+    --txd:                  #333;       /* dark text */
+    --txa:                  #11d;       /* link */
+    --txh:                  #811;       /* link hover */
 
     /* userpic */
-    --upw:                  #e8e8e8; /* userpic white */
-    --upb:                  #595959; /* userpic black */
-    --upr:                  #cf7280; /* userpic red */
-
-    /* icons */
-    --icu:                  #970; /* Linux */
-    --icw:                  #357EC7; /* Windows blue */
-    --ica:                  #1A8E4E; /* Android green, adjusted #3DDC84 */
+    --upw:                  #e8e8e8;    /* userpic white */
+    --upb:                  #595959;    /* userpic black */
+    --upr:                  #cf7280;    /* userpic red */
 }
 
 
@@ -185,19 +180,20 @@ a {
     text-decoration:        none;
 }
 sup {
-    position:               relative;
-    vertical-align:         middle;
+    top:                    -.4rem;
     font-size:              .8rem;
-    bottom:                 .5em;
-}
-sup span {
-    display:                none;
+    line-height:            100%;
 }
 h1 sup {
+    top:                    -.6rem;
     font-size:              1rem;
+    line-height:            100%;
 }
 a span {
     text-decoration:        underline;
+}
+abbr {
+    text-decoration-line:   dotted;
 }
 h1 {
     font-size:              2rem;
@@ -253,6 +249,7 @@ header {
 }
 body {
     color:                  var(--txd);
+    text-decoration-color:  var(--txd);
 }
 a {
     color:                  var(--txa);

@@ -24,45 +24,6 @@
 <link rel="source-code" content="https://github.com/onsamyj/onsamyj.github.io">
 </head>
 
-<svg viewBox="0 0 12 12" style="height:0;width:0;overflow:hidden;position:absolute" aria-hidden="true">
-    <defs>
-        <mask id="lmask">
-            <rect width="12" height="12" fill="white"/>
-            <g stroke="black" stroke-width="1.1">
-                <line x1="0" y1="0" x2="12" y2="12"/>
-                <line x1="12" y1="0" x2="0" y2="12"/>
-            </g>
-        </mask>
-        <clipPath id="wclip">
-            <rect width="11" height="11" rx="1" y="1"/>
-        </clipPath>
-        <mask id="amask">
-            <rect width="12" height="8" y="4" rx="1" fill="white"/>
-            <g fill="black">
-                <circle r="1" cx="3.5" cy="8.5"/>
-                <circle r="1" cx="8.5" cy="8.5"/>
-            </g>
-        </mask>
-    </defs>
-    <polygon id="linux" points="6 0,12 6,6 12,0 6" fill="var(--icu)" mask="url(#lmask)"/>
-    <g id="windows" clip-path="url(#wclip)">
-        <rect id="wsquare" width="5" height="5" y="1" fill="var(--icw)"/>
-        <use href="#wsquare" transform="translate(6)"/>
-        <use href="#wsquare" transform="translate(0,6)"/>
-        <use href="#wsquare" transform="translate(6,6)"/>
-    </g>
-    <g id="android">
-        <g stroke="var(--ica)" stroke-width="1">
-            <line x1="1" y1="2" x2="4" y2="6"/>
-            <line x1="11" y1="2" x2="8" y2="6"/>
-        </g>
-        <g fill="var(--ica)" mask="url(#amask)">
-            <circle r="6" cx="6" cy="10"/>
-            <rect width="12" height="2" y="10"/>
-        </g>
-    </g>
-</svg>
-
 <body>
     <header>
         <section>
@@ -90,21 +51,15 @@
                 <h2>Hardware</h2>
                 <ul>
                     <li>Mini PC:
-                        <span title="Linux"><svg viewBox="0 0 12 12">
-                            <use href="#linux"/>
-                        <desc>❖</desc></svg>Chihiro</span>
+                        Chihiro
                         <sup>Ryzen 5 5560U</sup>
                     </li>
                     <li>Laptop:
-                        <span title="Linux"><svg viewBox="0 0 12 12">
-                            <use href="#linux"/>
-                        <desc>❖</desc></svg>Fio</span>
+                        Fio
                         <sup>Pentium Silver N5030</sup>
                     </li>
                     <li>Phone:
-                        <span title="Android"><svg viewBox="0 0 12 12">
-                            <use href="#android"/>
-                        <desc>⍾</desc></svg>Moto E5 Plus</span>
+                        Moto E5 Plus
                     </li>
                 </ul>
             </article>
@@ -122,8 +77,8 @@
                         Inkscape,
                         VS Code
                     </li>
-                    <li>CLI:
-                        Konsole/Windows Terminal,
+                    <li><abbr title="Command-line interface">CLI</abbr>:
+                        Konsole,
                         Nushell,
                         Oh My Posh
                     </li>
@@ -133,24 +88,20 @@
                 <h2>Gaming</h2>
                 <ul>
                     <li><a href="https://browser.geekbench.com/user/434938"><span>PCs</span></a>:
-                        <span title="Linux"><svg viewBox="0 0 12 12">
-                            <use href="#linux"/>
-                        <desc>❖</desc></svg>Chihiro</span>,
-                        <span title="Windows"><svg viewBox="0 0 11 12">
-                            <use href="#windows"/>
-                        <desc>⊞</desc></svg>Nausicaä</span>
+                        Chihiro,
+                        Nausicaä
                         <sup>Ryzen 5 4500, Radeon RX 6600 XT</sup>
                     </li>
                     <li>Consoles:
                         Switch,
                         3DS,
                         Vita,
-                        Series S
+                        Xbox Series S</span>
                     </li>
                     <li>Gamepads:
-                        Flydigi Apex 4
-                        &amp; Vader 3 Pro,
-                        Steam Controller
+                        Flydigi <sup>Apex 4
+                        &amp; Vader 3 Pro</sup>,
+                        Steam Controller
                     </li>
                 </ul>
             </article>
