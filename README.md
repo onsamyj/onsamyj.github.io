@@ -2,7 +2,7 @@
 
 [onsamyj.github.io](https://onsamyj.github.io/)
 
-Bilingual disabled socialist who can easily imagine the end of the world or the end of capitalism. Feminism is for everyone. He/him.
+Bilingual disabled socialist who can easily imagine the end of the world or the end of capitalism. Feminism is for everyone. He/him.
 
 ## Mastodon
 
@@ -32,12 +32,9 @@ My [rubber duck](https://en.wikipedia.org/wiki/Rubber_duck_debugging) for bits o
 
 ### Games
 
+- [MobyGames](https://www.mobygames.com/user/120552/onsamyj/collection/)
 - [Backloggery](https://www.backloggery.com/onsamyj)
 - [#GetThereGames](https://mastodon.online/tags/GetThereGames)
-
-### Reach out
-
-- [@**alsorew**:matrix.org](https://matrix.to/#/@alsorew:matrix.org)
 
 ---
 
@@ -46,13 +43,3 @@ My [rubber duck](https://en.wikipedia.org/wiki/Rubber_duck_debugging) for bits o
 Best viewed in:  
 [![Firefox](https://img.shields.io/badge/Firefox-informational?logo=firefoxbrowser&logoColor=white)](https://www.mozilla.org/firefox/) 
 [![Links](https://img.shields.io/badge/Links-informational?logo=links&logoColor=white)](http://links.twibright.com/)
-
-<!--
-
-  ↑ ↑    .  .  _   _   _
-=(o o)=  |\ | | | |_| |_
-(") (")  | \| |_| |   |_
--- no·thing pe·rsonal --
-This is a public domain.
-
--->
