@@ -1,6 +1,4 @@
-/*
-MARK: Variables
-*/
+/* Variables */
 
 :root {
     /* background */
@@ -21,9 +19,7 @@ MARK: Variables
 
 
 
-/*
-MARK: Fonts
-*/
+/* Fonts */
 
 @font-face {
     font-display:           auto;
@@ -59,9 +55,7 @@ MARK: Fonts
 
 
 
-/*
-MARK: Base
-*/
+/* Base */
 
 * {
     position:               relative;
@@ -88,9 +82,7 @@ body {
 
 
 
-/*
-MARK: Blocks
-*/
+/* Blocks */
 
 body,
 header,
@@ -138,9 +130,7 @@ footer article {
 
 
 
-/*
-MARK: Wide Blocks
-*/
+/* Wide Blocks */
 
 @media screen and (min-width:40rem) {
     section {
@@ -161,9 +151,7 @@ MARK: Wide Blocks
 
 
 
-/*
-MARK: Text
-*/
+/* Text */
 
 strong,
 h2,
@@ -185,7 +173,7 @@ sup {
     line-height:            100%;
 }
 h1 sup {
-    top:                    -.6rem;
+    top:                    -.55rem;
     font-size:              1rem;
     line-height:            100%;
 }
@@ -217,11 +205,9 @@ ul li span {
 
 
 
-/*
-MARK: Images
-*/
+/* Images */
 
-svg {
+aside svg {
     vertical-align:         bottom;
     height:                 auto;
     width:                  8rem;
@@ -233,16 +219,14 @@ li svg {
     margin-right:           .0625rem;
 }
 @media screen and (min-width:60rem) {
-    svg {
+    aside svg {
         width:              12rem;
     }
 }
 
 
 
-/*
-MARK: Colors
-*/
+/* Colors */
 
 header {
     color:                  var(--txl);
