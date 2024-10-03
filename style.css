@@ -1,24 +1,3 @@
-/* Variables */
-
-:root {
-    /* background */
-    --bgd:                  #222;       /* dark background */
-    --bgl:                  #ddd;       /* light background */
-
-    /* text */
-    --txl:                  #ccc;       /* light text */
-    --txd:                  #333;       /* dark text */
-    --txa:                  #11d;       /* link */
-    --txh:                  #811;       /* link hover */
-
-    /* userpic */
-    --upw:                  #e8e8e8;    /* userpic white */
-    --upb:                  #595959;    /* userpic black */
-    --upr:                  #cf7280;    /* userpic red */
-}
-
-
-
 /* Fonts */
 
 @font-face {
@@ -229,25 +208,22 @@ li svg {
 /* Colors */
 
 header {
-    color:                  var(--txl);
+    color:                  #ccc;
 }
 body {
-    color:                  var(--txd);
-    text-decoration-color:  var(--txd);
+    color:                  #333;
 }
 a {
-    color:                  var(--txa);
-    text-decoration-color:  var(--txa);
+    color:                  #11d;
 }
 a:hover,
 a:focus {
-    color:                  var(--txh);
-    text-decoration-color:  var(--txh);
+    color:                  #811;
 }
 
 body {
-    background:             var(--bgl);
+    background:             #ddd;
 }
 header {
-    background:             var(--bgd);
+    background:             #222;
 }
